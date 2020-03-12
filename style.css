@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+
+.pega_img {
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+
+
+
+.pega {
+  height: 200px;
+  color: brown; 
+font-size: 16px;
+background-color: #ffcaca;
+padding: 5px;
+border-radius: 5px 5px 5px;
+border: 1px solid brown;
+padding: 25px;
+}
+
+.imgtitle {
+    width: 25%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+/* On the flex container */
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    flex-wrap: wrap;
+    /* Or do it all in one line
+      with flex flow */
+    
+    /* tweak where items line
+       up on the row
+       valid values are: flex-start,
+       flex-end, space-between,
+       space-around, stretch */
+    align-content: space-around;
+ }
+
+ form > span.boton {
+  color: brown; 
+font-size: 12px;
+background-color: #ffcaca;
+background-size: 20px 20px;
+background-repeat:no-repeat;
+background-position:2px;
+padding: 5px;
+border-radius: 5px 5px 5px;
+border: 1px solid brown;
+padding-left: 25px;
+padding-right: 25px;
+box-shadow: 5px 4px gray;
+
+ }
+
+ i {
+   font-size: 12px;
+   color: brown;
+ }
+
+ .flexcontainer_item{
+   text-align: center;
+   
+   
+ }
+
+ .pegaInfo {
+  padding: 25px;
+  border-radius: 5px 5px 5px;
+border: 1px solid brown;
+max-width: 350px;
+max-height: 200px;
+ }
