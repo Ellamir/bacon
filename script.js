@@ -1,6 +1,7 @@
 
 boton.addEventListener("click", (event) => {
     event.preventDefault();
+    $('#flexcontainer').html('');
     let id = document.getElementById("id").value;
     console.log(id);
     const url = `https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=${id}`;
@@ -16,15 +17,17 @@ if (full==true) {var url1 = url + `&full_time=on`} else {var url1 = url};
 console.log(url1);
 if (remote==true) {var url2 = url1 + `&location=remote`} else {var url2 = url1};
 console.log(url2);
+document.getElementById("loading").style.visibility = "visible";
 
     fetch(url2)
         .then(respuesta => {
             return respuesta.json();
+            
                         
         })
         .then(json => {
             console.log(json);
-            $('#flexcontainer').html('');
+            document.getElementById("loading").style.visibility = "hidden";
             json.forEach(function(json) {
                
                 let structure = `

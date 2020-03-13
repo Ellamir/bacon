@@ -93,3 +93,20 @@ max-width: 350px;
 max-height: 180px;
 background-color: #ffffff;
  }
+
+ .loading {
+   padding-top: 20px;
+  text-align: center;
+  
+  visibility: hidden;
+ }
+
+ .loading > p{
+   text-align: center;
+   align-content: center;
+ }
+ .mascot
+{
+  width: 30%;
+  height: auto;
+}

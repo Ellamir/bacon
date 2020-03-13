@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <img alt="Titulo" class="imgtitle" src="titulo.png"> 
+    <a href="#busca"><img alt="Titulo" class="imgtitle" src="titulo.png"> </a>
 
         <!-- <img class="boton" id="boton" src="favicon.png"> -->
 
@@ -33,13 +33,17 @@
 
     </div>
 
-    <form ><label for="id">Busca una palabra clave</label>
+    <form id="busca"><label for="id">Busca una palabra clave</label>
         <input type="text" id="id" placeholder="developer"> <br><br>
         ¿Sólo trabajo remoto? <input type="checkbox" id="remote">
         <i class="fas fa-bacon"></i> ¿Sólo de tiempo completo? <input type="checkbox" id="full">
         <br><br>
         <span id="boton" class="boton"><i class="fas fa-bacon"></i> Presiona aquí para buscar <i
                 class="fas fa-bacon"></i></span>
+
+                <div id="loading" class="loading">Buscando trabajos en la base de datos...  <br>
+<img src="mascot.png" class="mascot">
+              </div>
 
 
     <!-- Jquery V.3.3.1 -->
