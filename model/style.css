@@ -28,7 +28,7 @@ table > a {
 }
 
 .imgtitle {
-    width: 25%;
+    width: 45%;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 15px;
@@ -40,7 +40,7 @@ table > a {
     align-items: center;
     justify-content: space-evenly;
    background-color: brown;
-   background-image: url(fondo.jpg);
+   background-image: url(../view/img/fondo.jpg);
    background-size: 50%;
     flex-wrap: wrap;
     /* Or do it all in one line
