@@ -4,7 +4,7 @@ body {
 
 .pega_img {
     max-width: 100px; 
-    max-height: 100px;
+    max-height: 80%;
 }
 
 
@@ -19,6 +19,12 @@ padding: 5px;
 border-radius: 5px 5px 5px;
 border: 1px solid brown;
 padding: 25px;
+background-color: white;
+}
+
+table > a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .imgtitle {
@@ -33,7 +39,9 @@ padding: 25px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+   background-color: brown;
+   background-image: url(fondo.jpg);
+   background-size: 50%;
     flex-wrap: wrap;
     /* Or do it all in one line
       with flex flow */
@@ -44,6 +52,10 @@ padding: 25px;
        flex-end, space-between,
        space-around, stretch */
     align-content: space-around;
+ }
+
+ form {
+   padding-top: 10px;
  }
 
  form > span.boton {
@@ -69,14 +81,15 @@ box-shadow: 5px 4px gray;
 
  .flexcontainer_item{
    text-align: center;
-   
+   background-color: #ffcaca;
    
  }
 
  .pegaInfo {
-  padding: 25px;
+  padding: 5px;
   border-radius: 5px 5px 5px;
 border: 1px solid brown;
 max-width: 350px;
-max-height: 200px;
+max-height: 180px;
+background-color: #ffffff;
  }
